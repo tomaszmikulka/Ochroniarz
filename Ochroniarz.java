@@ -11,8 +11,8 @@ public class Ochroniarz {
         String miasto=sc.nextLine();
         System.out.println("Ile masz lat?");
         int wiek=sc.nextInt();
-        System.out.println("Podaj stan cywilny?");
-        String stan_cywilny=sc.nextLine();
+        System.out.println("Wolny/a czy zajęty/a ? true/false");
+        Boolean stan_cywilny=sc.nextBoolean();
 
         System.out.println(imie + "\n" + nazwisko + "\n" + miasto + "\n" + wiek + "\n" + stan_cywilny);
     }
